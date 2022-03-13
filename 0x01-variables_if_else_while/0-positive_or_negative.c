@@ -6,11 +6,11 @@
 
 /**
  *
- *  * main - entry point
+ *   * main - entry point
  *
  *   * Description: tell if a number is positive, zero or negative
  *
- *    * Return: Always return zero(0)
+ *   * Return: Always return zero(0)
  *
  */
 
