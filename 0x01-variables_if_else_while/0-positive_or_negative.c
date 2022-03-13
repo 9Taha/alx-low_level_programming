@@ -5,14 +5,14 @@
 #include <stdlib.h>
 
 /**
- *
+ * 
  *   * main - entry point
- *
+ * 
  *   * Description: tell if a number is positive, zero or negative
- *
+ * 
  *   * Return: Always return zero(0)
- *
- */
+ * 
+ */ 
 
 int main(void)
 
