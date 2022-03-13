@@ -5,14 +5,13 @@
 #include <stdlib.h>
 
 /**
- * 
  *   * main - entry point
- * 
+ *
  *   * Description: tell if a number is positive, zero or negative
- * 
+ *
  *   * Return: Always return zero(0)
- * 
- */ 
+ *
+ */
 
 int main(void)
 
@@ -22,8 +21,9 @@ int main(void)
 
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	
+	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 
 	printf("%d is positive\n", n);
