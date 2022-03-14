@@ -29,7 +29,6 @@ int main(void)
 
 	int i, j, k;
 
-
 	i = 0;
 
 	while (i < 100)
@@ -39,7 +38,6 @@ int main(void)
 	j = i % 10; /* singles digit */
 
 	k = i / 10; /* doubles digit */
-
 
 	if (k < j)
 
@@ -60,7 +58,6 @@ int main(void)
 	}
 
 	}
-
 
 	i++;
 
