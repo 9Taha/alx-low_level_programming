@@ -9,9 +9,9 @@
  *
  *     * The two numbers should be separated by a space.
  *
- *      * All numbers should be printed with two digits. 1 should be printed as 01.
+ *   *All numbers should be printed with two digits.1 should be printed as 01.
  *
- *       * Combination of numbers must be separated by a comma followed by a space.
+ *    *Combination of numbers must be separated by a comma followed by a space.
  *
  *        * Combinations of numbers should be printed in ascending order.
  *
@@ -32,7 +32,6 @@ int main(void)
 {
 
 	int i, j;
-
 	int a, b, c, d;
 
 	for (i = 0; i < 100; i++)
@@ -40,7 +39,6 @@ int main(void)
 	{
 
 	a = i / 10; /* doubles fnum */
-
 	b = i % 10; /* singles fnum */
 
 	for (j = 0; j < 100; j++)
@@ -48,13 +46,11 @@ int main(void)
 	{
 
 	c = j / 10; /* doubles snum */
-
 	d = j % 10; /* singles snum */
 
 	if (a < c || (a == c && b < d))
 
 	{
-
 	putchar(a + '0');
 
 	putchar(b + '0');
@@ -70,18 +66,12 @@ int main(void)
 	{
 
 	putchar(44);
-
 	putchar(32);
 
 	}
-
 	}
-
 	}
-
 	}
-
 	putchar(10);
-
 	return (0);
 }
