@@ -26,7 +26,7 @@ int main(void)
 	s++;
 
 	}
- 
+
 	_putchar('\n');
 
 	return (0);
