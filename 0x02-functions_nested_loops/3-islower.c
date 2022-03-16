@@ -7,7 +7,7 @@
  *
  *    * @c: char type letter
  *
- *     *
+ *
  *
  *      * Return: 1 if c is lowercase and 0 otherwise
  *
