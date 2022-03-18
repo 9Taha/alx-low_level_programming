@@ -7,8 +7,6 @@
  *
  *   * @c: variable
  *
- *    *
- *
  *     * Return: Always 0.
  *      
  */
