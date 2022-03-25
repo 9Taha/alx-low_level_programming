@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 #include <stdio.h>
 
@@ -10,6 +10,7 @@ nclude "main.h"
  *    * @src: string to add
  *
  *      * Return: a pointer to the resulting string
+ *
  */
 
 char *_strcat(char *dest, char *src)
