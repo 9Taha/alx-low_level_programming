@@ -12,17 +12,16 @@
  *    *Return:a pointer to the first occurance of the character @c in the string
  *
  *        * @s. Return NULL if the character isn't found
- *
  */
 
-char *_strchr(char *s, char c)
+	char *_strchr(char *s, char c)
 
 {
 
 	while (*s)
 
 	{
-	
+
 	if (*s != c)
 
 	s++;
@@ -38,5 +37,4 @@ char *_strchr(char *s, char c)
 	return (s);
 
 	return (NULL);
-
 }
