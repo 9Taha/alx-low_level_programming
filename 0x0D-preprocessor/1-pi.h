@@ -1,4 +1,4 @@
-#ifndef _1_PI_H_
-#define PI
-#define PI (3.14159265359)
+#ifndef main_h_
+#define main_h_
+#define PI 3.14159265359
 #endif
